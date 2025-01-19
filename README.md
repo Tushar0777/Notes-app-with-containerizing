@@ -6,23 +6,8 @@ This is a simple notes app built with React and Django.
 2. Node.js
 3. React
 
-## Installation
-1. Clone the repository
-```
-https://github.com/Tushar0777/Notes-app-with-containerizing.git
-```
 
-2. Build the app
-```
-docker build -t notes-app .
-```
-
-3. Run the app
-```
-docker run -d -p 8000:8000 notes-app:latest
-```
-
-## Docker-SET UP
+## Docker-SET UP (docker desktop is must for this step )
 1.clone the repository
 ```
 https://github.com/Tushar0777/Notes-app-with-containerizing.git
