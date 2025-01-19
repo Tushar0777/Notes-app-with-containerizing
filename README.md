@@ -22,9 +22,25 @@ docker build -t notes-app .
 docker run -d -p 8000:8000 notes-app:latest
 ```
 
-<!-- ## Nginx
+## Docker-SET UP
+1.clone the repository
+```
+https://github.com/Tushar0777/Notes-app-with-containerizing.git
 
-Install Nginx reverse proxy to make this application available
+```
+2.open the folder in your command prompt and compose the app
 
-`sudo apt-get update`
-`sudo apt install nginx` -->
+```
+docker compose up -d
+
+```
+3. the app will be running on local host of your browzer
+ ```
+http://localhost:8000/
+
+```
+4. compose down the running app 
+```
+docker compose down
+
+```
